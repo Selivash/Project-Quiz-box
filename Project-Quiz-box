@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a href="#" class="logo">
+          <img src="#" alt="logo" class="logo__pic" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Игры</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="adress">
+          <a href="tel:+78007003030" class="adress__phone-link"
+            >8 800 700 30 30</a
+          >
+          <div class="adress__time">График работы</div>
+        </address>
+      </header>
+      <section class="hero">
+        <h1 class="hero__title">Интеллектуальный вечер для шумной компании</h1>
+        <div class="hero__subtitle">Игры на любой вкус</div>
+        <a href="#" class="btn btn_theme_common">Подробнее</a>
+      </section>
+      <section class="content">
+        <div class="content__title">
+          <h2 class="content__title-text">Новинка недели</h2>
+          <div class="content__title-img">
+            <img src="#" alt="new" class="content__title-pic" />
+          </div>
+        </div>
+        <ul class="games">
+          <li class="games__item">
+            <div class="games__img">
+              <img src="#" alt="MUSIC" class="games__img-pic" />
+            </div>
+            <div class="games__desc">
+              <h3 class="games__title">Музыкальная игра</h3>
+              <ul class="games__desc-list">
+                <li class="games__desc-item">
+                  <div class="games__desc-img">
+                    <img src="#" alt="clock" class="games__desc-img-pic" />
+                  </div>
+                  <div class="games__desc-text">90 минут</div>
+                </li>
+                <li class="games__desc-item">
+                  <div class="games__desc-img">
+                    <img src="#" alt="QA" class="games__desc-img-pic" />
+                  </div>
+                  <div class="games__desc-text">70 вопросов</div>
+                </li>
+              </ul>
+              <p class="games__text">
+                Равным образом постоянное обеспечание нашей деятельности
+                позволяет оценить значение систем массового участия
+              </p>
+              <a href="#" class="btn btn_theme_uncommon">СМОТРЕТЬ</a>
+            </div>
+          </li>
+          <li class="games__item">
+            <div class="games__img">
+              <img src="#" alt="BACK IN" class="games__img-pic" />
+            </div>
+            <div class="games__desc">
+              <h3 class="games__title">Назад в 90-е</h3>
+              <ul class="games__desc-list">
+                <li class="games__desc-item">
+                  <div class="games__desc-img">
+                    <img src="#" alt="clock" class="games__desc-img-pic" />
+                  </div>
+                  <div class="games__desc-text">90 минут</div>
+                </li>
+                <li class="games__desc-item">
+                  <div class="games__desc-img">
+                    <img src="#" alt="QA" class="games__desc-img-pic" />
+                  </div>
+                  <div class="games__desc-text">70 вопросов</div>
+                </li>
+              </ul>
+              <p class="games__text">
+                Равным образом постоянное обеспечание нашей деятельности
+                позволяет оценить значение систем массового участия
+              </p>
+              <a href="#" class="btn btn_theme_uncommon">СМОТРЕТЬ</a>
+            </div>
+          </li>
+          <li class="games__item">
+            <div class="games__img">
+              <img src="#" alt="QUIZIT" class="games__img-pic" />
+            </div>
+            <div class="games__desc">
+              <h3 class="games__title">IT-викторина</h3>
+              <ul class="games__desc-list">
+                <li class="games__desc-item">
+                  <div class="games__desc-img">
+                    <img src="#" alt="clock" class="games__desc-img-pic" />
+                  </div>
+                  <div class="games__desc-text">90 минут</div>
+                </li>
+                <li class="games__desc-item">
+                  <div class="games__desc-img">
+                    <img src="#" alt="QA" class="games__desc-img-pic" />
+                  </div>
+                  <div class="games__desc-text">70 вопросов</div>
+                </li>
+              </ul>
+              <p class="games__text">
+                Равным образом постоянное обеспечание нашей деятельности
+                позволяет оценить значение систем массового участия
+              </p>
+              <a href="#" class="btn btn_theme_uncommon">СМОТРЕТЬ</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="old-content">
+        <h2 class="old-content__title">Прошедшие игры</h2>
+        <ul class="old-games">
+          <li class="old-games__item">
+            <div class="old-games__img">
+              <img src="#" alt="hands up" class="old-games__img-pic" />
+            </div>
+            <div class="old-games__date">1 января</div>
+            <h3 class="old-games__title">Новогодний квиз</h3>
+            <p class="old-games__desc">
+              Успейте забронирова даты. Пока ещё есть места на декабрь. Удачи и
+              всех благ!
+            </p>
+          </li>
+          <li class="old-games__item">
+            <div class="old-games__img">
+              <img src="#" alt="GIRLS" class="old-games__img-pic" />
+            </div>
+            <div class="old-games__date">8 марта</div>
+            <h3 class="old-games__title">Весенняя игра</h3>
+            <p class="old-games__desc">
+              Успейте забронирова даты. Пока ещё есть места на декабрь. Удачи и
+              всех благ!
+            </p>
+          </li>
+        </ul>
+        <div class="pagination">
+          <div class="pagination__display">Страница 1 из 7</div>
+        </div>
+        <ul class="pagination__list">
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">1</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">2</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">3</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">4</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">5</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">6</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">7</a>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <div class="about__img">
+          <img src="#" alt="TEAM" class="img-pic" />
+        </div>
+        <div class="about__desc">
+          <h2 class="about__title">О нас</h2>
+          <p class="about__text">
+            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+            сгенерировать несколько абзацев более менее осмысленного текста рыбы
+            на русском языке, а начинающему оратору отточить навык публичных
+            выступлений в домашних условиях.
+          </p>
+          <a href="#" class="btn btn_button_rare">ПОДРОБНЕЕ</a>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="logo">
+          <img src="#" alt="logo" class="logo__pic" />
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Игры</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="socials">
+          <li class="socials__item">
+            <a href="#" class="socials__link"
+              ><img src="#" alt="TELEGA" class="socials__pic"
+            /></a>
+          </li>
+          <li class="socials__item">
+            <a href="#" class="socials__link"
+              ><img src="#" alt="VK" class="socials__pic"
+            /></a>
+          </li>
+          <li class="socials__item">
+            <a href="#" class="socials__link"
+              ><img src="#" alt="FB" class="socials__pic"
+            /></a>
+          </li>
+          <li class="socials__item">
+            <a href="#" class="socials__link"
+              ><img src="#" alt="INSTA" class="socials__pic"
+            /></a>
+          </li>
+        </ul>
+        <address class="adress">
+          <div class="adress__info">Бесплатный звонок по России</div>
+          <a href="tel:+78007003030" class="adress__phone-link"
+            >8 800 700 30 30</a
+          >
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>
